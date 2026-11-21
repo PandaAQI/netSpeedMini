@@ -1,0 +1,18 @@
+{
+  "id": "netSpeedMini",
+  "name": "迷你网速",
+  "description": "迷你网速条：机制与内置网速一致（DgopService 取数、惰性激活、空闲隐藏），外观更窄更轻——四套样式可选（极简箭头 / 胶囊 / 点分 / 单色），数字短格式、无图标无单位。",
+  "version": "1.1.0",
+  "author": "PandaAQI",
+  "type": "widget",
+  "capabilities": [
+    "dankbar-widget"
+  ],
+  "component": "./NetSpeedMiniWidget.qml",
+  "settings": "./NetSpeedMiniSettings.qml",
+  "icon": "network_check",
+  "permissions": [
+    "settings_read",
+    "settings_write"
+  ]
+}
